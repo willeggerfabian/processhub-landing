@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS-Variablen für schnelle Anpassung */
+:root{
+  --color-primary:#0057B7;
+  --color-secondary:#4B4B4B;
+  --color-accent:#2ECC71;
+  --color-bg:#FFFFFF;
+  --color-text:#111827;
+}
+
+/* Typo-Defaults (Inter via Next Font in layout) */
+h1,h2,h3{ @apply font-semibold text-text; }
+p{ @apply text-text; }
+
+/* Utilities */
+.container-narrow{ @apply max-w-5xl mx-auto px-4; }
+.section{ @apply py-16 md:py-24; }
+.card{ @apply bg-white rounded-2xl shadow-card p-6; }
+.badge{ @apply inline-flex items-center gap-2 text-sm font-medium rounded-full px-3 py-1 bg-primary/10 text-primary; }
+
+a.cta{ @apply inline-flex items-center justify-center rounded-xl bg-primary text-white px-5 py-3 font-medium hover:opacity-90 transition; }
+a.cta-secondary{ @apply inline-flex items-center justify-center rounded-xl border border-primary text-primary px-5 py-3 font-medium hover:bg-primary/5 transition; }
+
+/* Focus sichtbar */
+:focus-visible{ outline: 2px solid var(--color-primary); outline-offset: 2px; }
