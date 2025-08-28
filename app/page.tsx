@@ -16,7 +16,7 @@ const DATA = {
   ],
   video: "https://processhub.com/assets/demo-60s.mp4",
   calendly: "https://calendly.com/processhub/15min-kurzcheck",
-  webhook: "https://hooks.zapier.com/hooks/catch/XXXXXXX/XXXXXXX",
+  webhook: "https://hooks.zapier.com/hooks/catch/24399240/uh9nbfw/",
   claims: [
     "–20–30 % No-Shows durch Reminder-Flows",
     "+15–25 % mehr fixe Termine durch schnelle Lead-Erfassung",
