@@ -1,4 +1,4 @@
-"use client";
+"use client"; 
 import Badge from "@/components/Badge";
 import FAQ from "@/components/FAQ";
 import LeadForm from "@/components/LeadForm";
