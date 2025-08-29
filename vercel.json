@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "https://www.processhub.at/:path*", "destination": "https://processhub.at/:path*", "permanent": true }
+  ]
+}
